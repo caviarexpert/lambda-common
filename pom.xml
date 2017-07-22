@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.itranga.cav</groupId>
 	<artifactId>lambda-common</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -15,7 +15,7 @@
 		<connection>scm:git:https://github.com/caviarexpert/lambda-common.git</connection>
 		<developerConnection>scm:git:git@github.com:caviarexpert/lambda-common.git</developerConnection>
 		<url>https://github.com/caviarexpert/lambda-common</url>
-		<tag>HEAD</tag>
+		<tag>v0.0.1</tag>
 	</scm>
 
 	<dependencies>
