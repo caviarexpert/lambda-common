@@ -14,7 +14,9 @@ public class Invoice {
 	private List<CartLine> cart;
 	private String paymentId;
 	private BigDecimal itemsTotalAmount;
+	private BigDecimal itemsTaxAmount;
 	private BigDecimal totalAmount;
+	private BigDecimal vat;
 
 	public UpuAddress getShippingAddress() {
 		return shippingAddress;
@@ -70,6 +72,22 @@ public class Invoice {
 
 	public void setItemsTotalAmount(BigDecimal itemsTotalAmount) {
 		this.itemsTotalAmount = itemsTotalAmount;
+	}
+
+	public BigDecimal getVat() {
+		return vat;
+	}
+
+	public void setVat(BigDecimal vat) {
+		this.vat = vat;
+	}
+
+	public BigDecimal getItemsTaxAmount() {
+		return itemsTaxAmount;
+	}
+
+	public void setItemsTaxAmount(BigDecimal itemsTaxAmount) {
+		this.itemsTaxAmount = itemsTaxAmount;
 	}
 
 	public static class CartLine {
